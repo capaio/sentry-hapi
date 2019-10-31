@@ -1,0 +1,19 @@
+{
+  "name": "sentry-hapi",
+  "version": "1.0.0",
+  "description": "Sentry integration for Hapi.js",
+  "main": "src/index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/capaio/sentry-hapi"
+  },
+  "author": "Carlo Cappai",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/capaio/sentry-hapi/issues"
+  },
+  "homepage": "https://github.com/capaio/sentry-hapi#readme",
+  "dependencies": {
+    "@sentry/node": "^5.7.1"
+  }
+}
