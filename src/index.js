@@ -5,6 +5,7 @@ Sentry.init({ dsn: process.env.SENTRY_DSN })
 function sendSentry (request) {
   var res = request.response
   var req = request.raw.req
+  var title = res.stack
   const extra = {
     method: req.method,
     route: request.url.href,
@@ -19,7 +20,10 @@ function sendSentry (request) {
     scope.setLevel('error')
     scope.setExtra('request', extra)
   })
-  Sentry.captureMessage(res.stack)
+  if(res.output.statusCode === 404) {
+    title = 'Error: ' + request.url.href + ' not found';
+  }
+  Sentry.captureMessage(title);
 }
 
 exports.plugin = {
