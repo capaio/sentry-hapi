@@ -5,14 +5,11 @@
   "main": "src/index.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/capaio/sentry-hapi"
+    "url": "https://gitlab.facile.it/new-business/api/utilities/sentry-hapi"
   },
-  "author": "Carlo Cappai",
+  "author": "Facile.it",
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/capaio/sentry-hapi/issues"
-  },
-  "homepage": "https://github.com/capaio/sentry-hapi#readme",
+  "homepage": "https://gitlab.facile.it/new-business/api/utilities/sentry-hapi#readme",
   "dependencies": {
     "@sentry/node": "^5.7.1"
   }
