@@ -13,11 +13,15 @@ npm install sentry-hapi
 SENTRY_DSN=https://fake@sentry.yourdomain/
 ```
 
+#### 3. create an environment variable called ENV
+```
+ENV=production
+```
 
-#### 3. Include the plugin in your Hapi project
+#### 4. Include the plugin in your Hapi project
 ```
 await server.register({ plugin: require('sentry-hapi') });
 ```
 
 
-#### 4. Enjoy debugging your application!
+#### 5. Enjoy debugging your application!
