@@ -1,15 +1,15 @@
 {
   "name": "sentry-hapi",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Sentry integration for Hapi.js",
   "main": "src/index.js",
   "repository": {
     "type": "git",
-    "url": "https://gitlab.facile.it/new-business/api/utilities/sentry-hapi"
+    "url": "https://github.com/capaio/sentry-hapi"
   },
   "author": "Facile.it",
   "license": "MIT",
-  "homepage": "https://gitlab.facile.it/new-business/api/utilities/sentry-hapi#readme",
+  "homepage": "https://github.com/capaio/sentry-hapi#readme",
   "dependencies": {
     "@sentry/node": "^5.7.1"
   }
