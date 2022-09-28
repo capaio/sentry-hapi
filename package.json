@@ -10,7 +10,13 @@
   "author": "Facile.it",
   "license": "MIT",
   "homepage": "https://github.com/capaio/sentry-hapi#readme",
+  "scripts": {
+    "test": "jest"
+  },
   "dependencies": {
     "@sentry/node": "^5.7.1"
+  },
+  "devDependencies": {
+    "jest": "^29.1.1"
   }
 }
