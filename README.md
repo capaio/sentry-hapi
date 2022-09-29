@@ -32,4 +32,4 @@ you can configure custom options of this plugin
 |-----------|---------|---------|------------------------------|
 | report404 | Boolean | true    | send report of 404 happening |
 
-## 5. Enjoy debugging your application
+## 6. Enjoy debugging your application
