@@ -50,7 +50,7 @@ describe('test sentry-hapi', () => {
       },
 
       executePreResoponseHandlers: (request, reply) => {
-        return handlers['onPreResponse'].forEach((handler) => {
+        return handlers.onPreResponse.forEach((handler) => {
           handler(request, reply)
         })
       }
