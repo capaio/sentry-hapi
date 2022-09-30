@@ -1,6 +1,6 @@
 {
   "name": "sentry-hapi",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Sentry integration for Hapi.js",
   "main": "src/index.js",
   "repository": {
@@ -10,7 +10,16 @@
   "author": "Facile.it",
   "license": "MIT",
   "homepage": "https://github.com/capaio/sentry-hapi#readme",
+  "scripts": {
+    "test": "jest"
+  },
   "dependencies": {
     "@sentry/node": "^5.7.1"
-  }
+  },
+  "devDependencies": {
+    "jest": "^29.1.1"
+  },
+  "files": [
+    "src/*"
+  ]
 }
